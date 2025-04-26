@@ -10,6 +10,11 @@ header {
   box-sizing: border-box;
 }
 
+nav {
+  width: 100%;
+  box-sizing: border-box;
+}
+
 nav a {
   color: white;
   text-decoration: none;
