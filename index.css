@@ -1,4 +1,7 @@
-/* style.css */
+body {
+       padding: 0%;
+}
+
 header {
     background-color: #333;
     padding: 10px;
