@@ -1,0 +1,54 @@
+/* style.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+padding-top: 48px;
+background-color: #f0f0f0;
+}
+
+header {
+    top: 0px;
+    background-color: #757575;
+    height: 50px;
+    width: 100%;
+    padding: 10px 10px;
+    position: fixed;
+}
+
+nev {
+    position: fixed;
+    padding: 5.5px 0px;
+    right: 0px;
+    width: 350px;
+}
+
+.logoicon {
+    background-image: url('Logo.jpg');
+    background-size: contain; /* This will make sure the image fits within the element */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    display: inline-block; /* Essential to give the element dimensions */
+    width: 30px; /* Adjust width as needed for your logo */
+    height: 30px; /* Adjust height as needed for your logo */
+    text-indent: -9999px; /* Hides the "a" text visually */
+    overflow: hidden; /* Hides the "a" text if text-indent doesn't work perfectly */
+    border-radius: 10%;
+}
+
+.la {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    margin-left: 5px;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.box1{
+    width: 30%;
+    height: 2000px;
+    background-color: aqua;
+}
